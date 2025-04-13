@@ -1,7 +1,7 @@
 vim.api.nvim_create_user_command(
-    "Srpl",
+    "Slurp",
     function()
-        require("srpl").launch()
+        require("slurp").launch()
     end,
     {nargs = 0, bar = true }
 )
